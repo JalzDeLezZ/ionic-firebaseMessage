@@ -18,9 +18,12 @@
 ```bash
 # build
 $ ionic cap build android
+$ ionic cap sync android
+$ ionic cap open android
+$ ionic cap run android -l --external
 
 # commands
-$ npx capacitor-assets generate
+$ npx capacitor-assets generate --android
 
 # crete project
 $ ionic start myApp tabs
@@ -42,6 +45,9 @@ $ ionic start myApp tabs
 <details><summary>Utils</summary>
 
 [• QuickType](https://app.quicktype.io/)
+
+npm install @capacitor/splash-screen
+npx cap sync
 
 </details><br/>
 
