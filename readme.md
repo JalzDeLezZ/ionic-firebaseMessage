@@ -25,12 +25,11 @@ $ ionic start myApp tabs
 
 ## Dependences
 
+[• PWA-Elements](https://ionicframework.com/docs/v6/vue/your-first-app#pwa-elements)
+
 [• CAP: Push-Notifications](https://ionicframework.com/docs/native/push-notifications)
 [• CAP: Storage](https://ionicframework.com/docs/vue/storage)
 [• Firebase Console](https://console.firebase.google.com/u/0/project/ionic-test-f7b5c/notification/compose?hl=es-419&campaignId=3502158233058825973)
-[• Angular PDF Viewer](https://www.npmjs.com/package/ng2-pdf-viewer)
-[• File](https://danielsogl.gitbook.io/awesome-cordova-plugins/file)
-[• PWA-Elements](https://ionicframework.com/docs/v6/vue/your-first-app#pwa-elements)
 
 <br/><hr/>
 

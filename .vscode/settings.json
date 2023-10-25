@@ -3,6 +3,7 @@
       "**/node_modules": true,
       "**/.angular": true,
   },
+  "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#601edf",
     "activityBar.background": "#601edf",
