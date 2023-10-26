@@ -13,25 +13,18 @@ export class HomePage implements OnInit {
   constructor(
     private splashScreenService: SplashScreenService,
     private pushService: PushService,
-    private platform: Platform,
-    private toastController: ToastController
+    private platform: Platform
   ) {
     this.platform.ready().then(() => {
       this.pushService.requestPermissions();
 
-      FirebaseMessaging.addListener('notificationReceived', (event: any) => {
-        this.toastController
-          .create({
-            message: event.title,
-            duration: 3000,
-          })
-          .then((toast) => {
-            toast.present();
-          });
-      });
+      this.pushService.initialSettings();
+      // FirebaseMessaging.addListener('notificationReceived', (event: any) => {
+      //   console.log("🚀 ~ HomePage ~ FirebaseMessaging.addListener ~ event:", event)
+      // });
     });
 
-    FirebaseMessaging.addListener("notificationActionPerformed", (event) => { });
+    // FirebaseMessaging.addListener("notificationActionPerformed", (event) => { });
   }
   ngOnInit(): void {
     this.pushService.saveToken();
@@ -43,5 +36,10 @@ export class HomePage implements OnInit {
 
   getToken = () => {
     this.pushService.saveToken();
+  };
+
+  onTest = async () => {
+    const rest = await this.pushService.requestPermissions();
+    console.log('🚀 ~ HomePage ~ onTest= ~ rest:', rest);
   };
 }

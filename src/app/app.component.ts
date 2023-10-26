@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(
     private platform: Platform,
     private splashScreenService: SplashScreenService,
-    private pushService: PushService,
+    private pushService: PushService
   ) {
     this.initializeApp();
   }
