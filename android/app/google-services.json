@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863478011625",
+    "project_id": "ionic-test-f7b5c",
+    "storage_bucket": "ionic-test-f7b5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863478011625:android:1956e9a59084decfac0278",
+        "android_client_info": {
+          "package_name": "io.ionic.jalzdelez.test0"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZxVk8StDyxWvhANcDwxzkuxkUerOBhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

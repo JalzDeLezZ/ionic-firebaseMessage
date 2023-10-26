@@ -28,13 +28,18 @@ $ npx capacitor-assets generate --android
 # crete project
 $ ionic start myApp tabs
 
+# external packages
+$ npm install @capacitor-firebase/messaging firebase
+$ npx cap sync
+
 ```
 
 <br/><hr/>
 
-## Dependences
+## Doc
 
 [• PWA-Elements](https://ionicframework.com/docs/v6/vue/your-first-app#pwa-elements)
+[• Firebase Console](https://console.firebase.google.com/u/0/project/ionic-test-f7b5c/notification/compose?hl=es-419&campaignId=3502158233058825973)
 
 <br/><hr/>
 

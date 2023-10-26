@@ -1,13 +1,16 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'io.ionic.jalzdelez.test0',
   appName: 'pushNotify-firebase',
   webDir: 'www',
   server: {
     androidScheme: 'https',
   },
   plugins: {
+    FirebaseMessaging: {
+      presentationOptions: ['badge', 'sound', 'alert'],
+    },
     SplashScreen: {
       launchShowDuration: 3000,
       launchAutoHide: true,
